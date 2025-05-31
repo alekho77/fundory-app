@@ -51,7 +51,7 @@ The project is distributed under a custom source-available license that permits 
 
 ## 🧑‍💻 Contact
 
-Development and idea by: [Your name or nickname]  
+Development and idea by: Aleksei Khozin  
 Project website: [https://fundory.com](https://fundory.com) *(in development)*  
 Feedback and suggestions: [email@example.com]
 
