@@ -45,7 +45,7 @@ Planned features:
 
 ## 📄 License
 
-The project is distributed under the [MIT](LICENSE) license.
+The project is distributed under a custom source-available license that permits code inspection but prohibits usage without explicit permission from the author.
 
 ---
 
