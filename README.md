@@ -1,6 +1,6 @@
 # Fundory App
 
-**Fundory** is a private web application for managing an investment portfolio. It is designed for individual investors, especially those who follow a long-term strategy and value the privacy of their data.
+**Fundory App** is a lightweight web application that helps individual investors estimate and visualize their long-term investment portfolios. It’s a simple, privacy-first investment calculator designed to run entirely in the browser without sending any data to external servers.
 
 ---
 
