@@ -23,12 +23,12 @@
 <style scoped>
 header {
   width: 100%;
-  min-height: 60px;
+  min-height: 0;
   background: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0 1rem;
   box-sizing: border-box;
 }
 .header-left {
@@ -36,9 +36,9 @@ header {
   align-items: center;
 }
 .logo {
-  height: 44px;
+  height: 3rem;
   width: auto;
-  margin-right: 8px;
+  margin: 0.5rem;
   display: block;
 }
 .header-center {
@@ -47,10 +47,10 @@ header {
   font-size: 1.5rem;
   font-weight: 600;
   color: #222;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05rem;
 }
 .header-right {
-  min-width: 60px;
+  min-width: 10rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
