@@ -18,6 +18,14 @@
   </defs>
   <!-- Shield background with shadow -->
   <path filter="url(#shadow)" fill="url(#shieldGrad)" d="M128 16L32 48v56c0 71 51.2 133 96 144 44.8-11 96-73 96-144V48L128 16z"/>
+  <!-- Shield border -->
+  <path
+    d="M128 16L32 48v56c0 71 51.2 133 96 144 44.8-11 96-73 96-144V48L128 16z"
+    fill="none"
+    stroke="#7aca9a"
+    stroke-width="8"
+    opacity="0.85"
+  />
   <!-- Decorative shield highlight -->
   <path fill="none" stroke="#fff" stroke-width="4" opacity="0.25"
         d="M128 28L44 56v48c0 65 46.8 122 84 132 37.2-10 84-67 84-132V56L128 28z"/>

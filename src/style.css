@@ -62,16 +62,7 @@ button:focus-visible {
   padding: 2em;
 }
 
-#app {
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  box-sizing: border-box;
-  flex: 1;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {

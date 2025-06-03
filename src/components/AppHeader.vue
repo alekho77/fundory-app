@@ -40,6 +40,7 @@ header {
   width: auto;
   margin: 0.5rem;
   display: block;
+  filter: drop-shadow(0 0 0.5rem #43e97b) drop-shadow(0 0 1rem #38f9d7);
 }
 .header-center {
   flex: 1;
