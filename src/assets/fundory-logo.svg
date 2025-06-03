@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Fundory Logo</title>
+  <desc>
+    Logo for Fundory App: a modern, high-res shield with a stylized upward investment graph, reflecting privacy, autonomy, and growth.
+  </desc>
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#43e97b"/>
+      <stop offset="100%" stop-color="#38f9d7"/>
+    </linearGradient>
+    <linearGradient id="graphGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1976d2"/>
+      <stop offset="100%" stop-color="#00c6fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Shield background with shadow -->
+  <path filter="url(#shadow)" fill="url(#shieldGrad)" d="M128 16L32 48v56c0 71 51.2 133 96 144 44.8-11 96-73 96-144V48L128 16z"/>
+  <!-- Decorative shield highlight -->
+  <path fill="none" stroke="#fff" stroke-width="4" opacity="0.25"
+        d="M128 28L44 56v48c0 65 46.8 122 84 132 37.2-10 84-67 84-132V56L128 28z"/>
+  <!-- Stylized investment graph (bars) -->
+  <rect x="70" y="120" width="18" height="56" rx="5" fill="url(#graphGrad)"/>
+  <rect x="104" y="100" width="18" height="76" rx="5" fill="url(#graphGrad)"/>
+  <rect x="138" y="80" width="18" height="96" rx="5" fill="url(#graphGrad)"/>
+  <rect x="172" y="60" width="18" height="116" rx="5" fill="url(#graphGrad)"/>
+  <!-- Upward arrow/line for growth -->
+  <polyline points="70,176 113,120 147,96 181,60" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="181,60 175,75 187,75" fill="#fff"/>
+  <!-- Subtle lock for privacy (optional, can be removed) -->
+  <g opacity="0.18">
+    <ellipse cx="128" cy="180" rx="18" ry="10" fill="#1976d2"/>
+    <rect x="118" y="160" width="20" height="20" rx="5" fill="#1976d2"/>
+    <rect x="123" y="150" width="10" height="12" rx="5" fill="#1976d2"/>
+  </g>
+</svg>
