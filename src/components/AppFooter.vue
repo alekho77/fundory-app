@@ -21,7 +21,7 @@
 footer {
   width: 100%;
   min-height: 40px;
-  background: #f5f5f5;
+  background: var(--color-secondary);
   display: flex;
   flex-direction: column;
   align-items: center;
