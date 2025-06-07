@@ -1,14 +1,16 @@
 <template>
   <footer>
     <div class="footer-top">
-      &copy; 2025 Fundory. All rights reserved.
+      &copy; 2025 Fundory. All rights reserved. <a href="#">License</a>
     </div>
     <div class="footer-bottom">
-      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="#">About</a>
       <span>|</span>
-      <a href="/terms-of-service">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
       <span>|</span>
-      <a href="/disclaimer">Disclaimer</a>
+      <a href="#">Terms of Service</a>
+      <span>|</span>
+      <a href="#">Disclaimer</a>
     </div>
   </footer>
 </template>

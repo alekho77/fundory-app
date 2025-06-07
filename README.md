@@ -27,7 +27,9 @@ Fundory aims to combine security, simplicity, and independence. It is an alterna
 - All data is stored only by the user  
 - The app does not use servers for storage or synchronization  
 - Plans include local encryption for added protection  
-- Source code is open and transparent for review
+- Source code is open and transparent for review  
+
+For more details, please review our [Privacy Policy](privacy.md), [Terms of Service](terms.md), and [License](LICENSE.md).
 
 ---
 
@@ -45,7 +47,7 @@ Planned features:
 
 ## 📄 License
 
-The project is distributed under a custom source-available license that permits code inspection but prohibits usage without explicit permission from the author.
+The project is distributed under a custom source-available license that permits code inspection but prohibits usage without explicit permission from the author. See the full [License](LICENSE.md) for details.
 
 ---
 
