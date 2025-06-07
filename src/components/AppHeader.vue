@@ -25,7 +25,7 @@
 header {
   width: 100%;
   min-height: 0;
-  background: #f5f5f5;
+  background: var(--color-secondary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,14 +41,13 @@ header {
   width: auto;
   margin: 0.5rem;
   display: block;
-  filter: drop-shadow(0 0 0.5rem #43e97b) drop-shadow(0 0 1rem #38f9d7);
+  filter: drop-shadow(0 0 10px #00bfff);
 }
 .header-center {
   flex: 1;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #222;
   letter-spacing: 0.05rem;
   position: relative;
   line-height: 1.1;
@@ -57,7 +56,7 @@ header {
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 400;
-  color: #38bfa7;
+  color: var(--color-primary);
   position: absolute;
   left: 55%;
   top: 1.7rem;
