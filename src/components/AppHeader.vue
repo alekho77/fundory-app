@@ -41,6 +41,7 @@ header {
   width: auto;
   margin: 0.5rem;
   display: block;
+  filter: drop-shadow(0 0 10px #00bfff);
 }
 .header-center {
   flex: 1;
