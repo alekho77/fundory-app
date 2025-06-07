@@ -9,7 +9,7 @@
     </div>
     <div class="header-center">
       Invest Calculator
-      <span class="fundory-app-label">Fundory App</span>
+      <a href="https://github.com/alekho77/fundory-app" target="_blank" rel="noopener noreferrer" class="fundory-app-label">Fundory App</a>
     </div>
     <div class="header-right">
       <!-- System menu -->
@@ -61,7 +61,6 @@ header {
   left: 55%;
   top: 1.7rem;
   white-space: nowrap;
-  pointer-events: none;
   user-select: none;
   opacity: 0.85;
 }
